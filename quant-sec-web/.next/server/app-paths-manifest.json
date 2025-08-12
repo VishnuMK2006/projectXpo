@@ -1,0 +1,10 @@
+{
+  "/compose/page": "app/compose/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/inbox/page": "app/inbox/page.js",
+  "/keys/page": "app/keys/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/register/page": "app/register/page.js"
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///D:/projs/qsa/quant-sec-web/src/components/ThemeRegistry.tsx"],"sourcesContent":["\"use client\";\r\nimport * as React from \"react\";\r\nimport { ThemeProvider, createTheme } from \"@mui/material/styles\";\r\nimport CssBaseline from \"@mui/material/CssBaseline\";\r\n\r\nconst theme = createTheme({\r\n  palette: {\r\n    mode: \"light\",\r\n  },\r\n});\r\n\r\nexport default function ThemeRegistry({ children }: { children: React.ReactNode }) {\r\n  return (\r\n    <ThemeProvider theme={theme}>\r\n      <CssBaseline />\r\n      {children}\r\n    </ThemeProvider>\r\n  );\r\n} "],"names":[],"mappings":";;;;AAEA;AAAA;AACA;AAHA;;;;AAKA,MAAM,QAAQ,CAAA,GAAA,2MAAA,CAAA,cAAW,AAAD,EAAE;IACxB,SAAS;QACP,MAAM;IACR;AACF;AAEe,SAAS,cAAc,EAAE,QAAQ,EAAiC;IAC/E,qBACE,8OAAC,+MAAA,CAAA,gBAAa;QAAC,OAAO;;0BACpB,8OAAC,sKAAA,CAAA,UAAW;;;;;YACX;;;;;;;AAGP","debugId":null}}]
+}
